@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  resource  :session
+  devise_for :users
+  # resource  :session
   resources :examples
 
   resources :messages do

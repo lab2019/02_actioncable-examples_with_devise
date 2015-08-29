@@ -18,9 +18,12 @@ gem 'jbuilder', '~> 2.0'
 
 group :development, :test do
   gem 'byebug'
+  gem 'pry-byebug'
 end
 
 group :development do
   gem 'web-console', github: 'rails/web-console'
   gem 'spring'
 end
+
+gem 'devise'
