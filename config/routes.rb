@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   devise_for :users
+
   # resource  :session
   resources :examples
 
@@ -7,5 +8,5 @@ Rails.application.routes.draw do
     resources :comments
   end
 
-  root 'examples#index'
+  root to: 'examples#index'
 end
